@@ -7,8 +7,8 @@ class Solution(object):
         #keep track of the lowest val and the max profit
         #if prices[i] < lowest_val -> lowest_val = prices[i]
         #check if prices[i] - lowest_val > max_profit and then replace
-        low = 2147483647;
-        maxp = 0;
+        low = 2147483647
+        maxp = 0
         
         for x in prices:
             if (x < low):
